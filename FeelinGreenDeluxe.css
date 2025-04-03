@@ -17,6 +17,7 @@
 	/* ------- Header ----------- */
 	--header-bg-color: #2A5D2C;
 	--header-bg-image: url(https://ssl-forum-files.fobby.net/forum_attachments/0050/1616/header-bg-green.png);
+	--banner-image: url(https://ssl-forum-files.fobby.net/forum_attachments/0050/1846/testbanner.png);
 	
 	/* ------- Sidebar ----------- */
     --sidebar-bg-color: #425344;
@@ -180,6 +181,11 @@
 	--bottom-area-bg-color: #0D5832;
 	--top-posts-header-color: white;
 	--top-posts-motto-color: #73879f;
+}
+
+
+h2#banner[style*="forumbanners/welcome.png"]{
+     background-image: var(--banner-image) !important;
 }
 
 .toolbar ul li.selected a,
